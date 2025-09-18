@@ -15,7 +15,6 @@ import org.hibernate.annotations.UpdateTimestamp;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
-import java.util.Objects;
 
 @Entity
 @Data
@@ -49,7 +48,7 @@ public class User {
     private String password;
 
     private boolean accountNonLocked=true;
-    private boolean accoundNonExpired=true;
+    private boolean accountNonExpired =true;
     private boolean credentialsNonExpired=true;
     private boolean enabled=true;
 
